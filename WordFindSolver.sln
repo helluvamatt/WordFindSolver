@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFindSolver", "WordFindSolver\WordFindSolver.csproj", "{31B65EFD-7DB0-45FE-B9F6-2917AE76CD38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFindSolverLib", "WordFindSolverLib\WordFindSolverLib.csproj", "{53026051-20CA-49E3-AC58-3384480CC900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFindSolverLib.Test", "WordFindSolverLib.Test\WordFindSolverLib.Test.csproj", "{B26FCDC7-9F78-4857-A2B0-BA3BDBD7EB7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{31B65EFD-7DB0-45FE-B9F6-2917AE76CD38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31B65EFD-7DB0-45FE-B9F6-2917AE76CD38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31B65EFD-7DB0-45FE-B9F6-2917AE76CD38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53026051-20CA-49E3-AC58-3384480CC900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53026051-20CA-49E3-AC58-3384480CC900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53026051-20CA-49E3-AC58-3384480CC900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53026051-20CA-49E3-AC58-3384480CC900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B26FCDC7-9F78-4857-A2B0-BA3BDBD7EB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26FCDC7-9F78-4857-A2B0-BA3BDBD7EB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26FCDC7-9F78-4857-A2B0-BA3BDBD7EB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26FCDC7-9F78-4857-A2B0-BA3BDBD7EB7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
