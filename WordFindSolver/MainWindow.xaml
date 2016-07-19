@@ -126,6 +126,11 @@
 						</Style.Triggers>
 					</Style>
 				</ListBox.ItemContainerStyle>
+				<ListBox.ItemTemplate>
+					<DataTemplate>
+						<Label Content="{Binding Path=Word}" FontSize="16px" Margin="7 3 7 3" />
+					</DataTemplate>
+				</ListBox.ItemTemplate>
 			</ListBox>
 		</Grid>
 	</Grid>
